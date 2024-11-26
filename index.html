@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicons -->
+    <link href="uberfavicon.png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Uber Clone</title>
+    <!-- CSS LInks -->
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./hero.css">
+    <link rel="stylesheet" href="./content.css">
+    <link rel="stylesheet" href="./download.css">
+    <link rel="stylesheet" href="./footer.css">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header Section -->
+     <!-- Navbar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark " id="header-section">
+        <div class="container-lg ">
+          <a class="navbar-brand" href="#">Uber</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- navbar left side menus -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#" id="ride">Ride</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="#" id="drive">Drive</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white" href="#" id="business">Business</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="about" >
+                  About <span class="bi bi-chevron-down"></span>
+                </a>
+                <!-- About dropdown menus -->
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li><a class="dropdown-item" href="#">How uber works</a></li>
+                  <li><a class="dropdown-item" href="#">Impact</a></li>
+                  <li><a class="dropdown-item" href="#">Diversity,equity and inclusion</a></li>
+                  <li><a class="dropdown-item" href="#">Sustainability</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Careers</a></li>
+                </ul>
+              </li>
+    
+            </ul>
+            <!-- navbar right side menus -->
+            <form class="d-flex gap-2">
+              <button class=" login-btn fw-bold" id="language"><i class="fa-solid fa-globe" style="color: whitesmoke; padding-right: 5px;"></i>EN</button>
+              <button class=" login-btn fw-bold" id="help">Help</button>
+              <button class=" login-btn fw-bold" id="login">Log in</button>
+              <button class="btn btn-sm rounded-pill btn-light fw-bold" style="padding: .5rem 1rem;">Sign up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar ends here -->
+      <!-- hero section -->
+      <section class="hero-section container-fluid">
+
+        <div class=" row hero-container">
+            <!-- Hero left section -->
+            <div class="col-lg-6 col-md-12  left-section">
+              
+                <div class="hero-subhead-section">
+                    <h1 class="hero-heading fw-bold text-dark">Go anywhere with Uber</h1>
+                    <p class="subhead ">Request a ride, hop in, and go.</p>
+                     
+                    <div class="d-flex align-items-center"><i class="bi bi-geo-alt-fill"></i>
+                    <input type="text" class="hero-input m-0  rounded border-0 d-block" placeholder="Enter location">
+                  </div>
+                  <br>
+                  <div class="d-flex align-items-center"><i class="bi bi-pin-map-fill"></i>
+                    <input type="text" class="hero-input m-0 rounded border-0 d-block" placeholder="Enter destination">
+                  </div>
+                    <button class="btn btn-lg btn-light hero-btn text-white mt-4" id="hero-button">See Prices</button>
+                </div>
+                
+            </div>
+            <!-- Hero right section -->
+            <div class="col-lg-6 col-md-12 hero-img hero-map-container">
+              <br><br><br>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31438.929681609217!2d76.3265024!3d9.945088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1732608317667!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- Content section -->
+
+      <section class="content-section container-fluid">
+
+        <!-- content 1 -->
+        <div class=" row content-container ">
+         <!-- Content 1 left section -->
+          <div class="col-lg-6 col-md-12 hero-img hero-img-container">
+            <img class="content-img-1 img-fluid" src="./hero-2.png" alt="">
+          </div>
+         <!-- Content 1 right section -->
+          <div class="col-lg-6 col-md-12  right-section-content">
+                <div class="content-subhead-section">
+                    <h1 class="content-heading">Drive when you want, make what you need</h1>
+                    <p class="content-subhead ">Make money on your schedule with deliveries or rides—or both. You can use your own car or choose a rental through Uber.</p>
+                    <button class="border-0     content-btn mb-3">Get started</button>
+                    <a href="" class="content-link">Already have an account? Sign in</a>
+                </div>   
+          </div>
+
+
+        </div>
+
+        <!-- content 2 -->
+        <div class=" row content-container flex-lg-row-reverse">
+        <!-- Content 2 left section -->
+          <div class="col-lg-6 col-md-12 hero-img hero-img-container">
+            <img class="content-img-2 img-fluid" src="./hero-3.png" alt="">
+          </div>
+         <!-- Content 2 right section -->
+          <div class="col-lg-6 col-md-12  left-section-content-2 d-lg-flex align-items-lg-center">
+                <div class="content-subhead-section-2">
+                    <h1 class="content-heading-2">The Uber you know, reimagined for business</h1>
+                    <p class="content-subhead content-subhead-2">Uber for Business is a platform for managing global rides and meals, and local deliveries, for companies of any size.</p>
+                    <button class="border-0     content-btn mb-3">Get started</button>
+                    <a href="" class="content-link">Check out our solutions</a>
+                </div>   
+          </div>
+
+
+        </div>
+
+        <!-- content 3 -->
+        <div class=" row content-container ">
+        <!-- Content 3 left section -->
+          <div class="col-lg-6 col-md-12 hero-img hero-img-container">
+            <img class="content-img-1 img-fluid" src="./hero-3.png" alt="">
+          </div>
+        <!-- Content 3 right section -->
+          <div class="col-lg-6 col-md-12  right-section-content">
+                <div class="content-subhead-section">
+                    <h1 class="content-heading-3">Make money by renting out your car</h1>
+                    <p class="content-subhead-3 ">Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p>
+                    <button class="border-0     content-btn mb-3">Get started</button>
+                </div>   
+          </div>
+
+
+        </div>
+
+      </section>
+
+      <!-- Download section  -->
+       <section class="download container-fluid">
+
+        <h2 class="download-section-heading">It’s easier in the apps</h2>
+
+        <div class="row download-container-grid gap-4">
+         <!-- right section -->
+          <div class="col-lg-4 download-container col-md-12">
+
+            <div class="row">
+
+              <div class="col-lg-3 col-md-2 col-sm-2 col-2">
+                <img src="./qr-1.png" alt="" class="download-img img-fluid">
+              </div>
+
+              <div class=" downlaod-subhead-container col-lg-9 d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center  flex-lg-column flex-md-column flex-sm-column col-md-10 col-sm-10 col-10">
+                <h2 class="download-heading ">Download the uber app</h2>
+                <p class="download-subheading">Scan to download</p>
+              </div>
+            </div>
+
+          </div>
+         <!-- left section -->
+          <div class="col-lg-4 download-container col-md-12">
+
+            <div class="row">
+
+              <div class="col-lg-3 col-md-2 col-sm-2 col-2">
+                <img src="./qr-1.png" alt="" class="download-img img-fluid">
+              </div>
+
+              <div class="downlaod-subhead-container col-lg-9 d-flex justify-content-lg-center justify-content-md-center justify-content-sm-center flex-lg-column flex-md-column flex-sm-column col-md-10 col-sm-10 col-10">
+                <h2 class="download-heading ">Download the uber app</h2>
+                <p class="download-subheading">Scan to download</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+       </section>
+
+       <!-- footer -->
+       <footer class="footer container-fluid">
+
+          <div class="footer-container">
+
+            <div class="footer-heading">
+              <h2>uber</h2>
+              <p>visit help center</p>
+            </div>
+
+            <div class="row gap-3">
+
+              <div class="col-lg-4 col-md-4 row">
+
+                <div class="col-lg-6 pb-5">
+                 <!-- company abouts -->
+                  <h4>Company</h4>
+                  <br>
+                  <p>About us</p>
+                  <p>our offering</p>
+                  <p>news room</p>
+                  <p>investors</p>
+                  <p>careers</p>
+                  <p>AI</p>
+                  <p>Gift cards</p>
+                </div>
+  
+                <div class="col-lg-6 pb-5">
+                  <!-- services -->
+                  <h4>Products</h4>
+                  <br>
+                  <p>Ride</p>
+                  <p>drive</p>
+                  <p>deliver</p>
+                  <p>eat  </p>
+                  <p>user for business</p>
+                </div>
+  
+              </div>
+              
+              <div class="col-lg-4 col-md-4 row ">
+
+                <div class="col-lg-6 pb-5 ">
+                  <h4>Global citizenship</h4>
+                  <br>
+                  <p>Safety</p>
+                  <p>Diversity and conclusion</p>
+                  <p>Sustainability</p>
+                </div>
+  
+                <div class="col-lg-6 pb-5">
+                  <h4>Travel</h4>
+                  <br>
+                  <p>Reserve</p>
+                  <p>Airports</p>
+                  <p>Cities</p>
+                </div>
+
+              </div>
+         
+            </div>
+
+            <div class="d-flex justify-content-between foter-containers">
+
+              <div class=" footer-links-container">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter-x"></i>
+                <i class="bi bi-youtube"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-instagram"></i>
+              </div>
+
+              <div class="footer-container-2">
+                <p>English</p>
+                <div class="footer-location-container">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <p>Kochi</p>
+                </div>
+              </div>
+              
+            </div>
+
+
+
+            </div>
+          </div>
+
+       </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+.hero-section {
+    background: rgb(255, 255, 255);
+    padding-bottom: 5%;
+}
+/* Hero section map */
+.hero-map-container {
+    padding: 0;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+.hero-input {
+    padding: 2%;
+    padding-right: 20%;
+    margin-bottom: 15px;
+}
+#hero-button{
+    border-radius: 7px;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    width: 70%;
+    color: rgb(0, 0, 0);
+}
+.subhead {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+.hero-subhead-section {
+    margin-left: 20%;
+}
+#hero-button{
+    background-color: black;
+}
+
+
+@media (max-width:990px) {
+    .hero-subhead-section {
+        padding: 0;
+    }
+    iframe{
+        width: 100%;
+    }
+    .hero-subhead-section {
+        margin: 0;
+        margin-left: 2%;
+    }
+    .hero-section {
+        padding-top: 5%;
+    }
+}

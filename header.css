@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#header-section {
+    background-color: black;
+    
+}
+#ride:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 7px;
+    
+}
+/* navbar menus */
+/* navbar left section menus */
+#drive:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 7px;
+    
+}
+#business:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 7px;
+    
+}
+#about:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 7px;
+    
+}
+/* navbar right section menus */
+#language:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 7px;
+    
+}
+#help:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 7px;
+    
+}
+#login:hover{
+    background-color: rgb(62, 61, 61);
+    border-radius: 7px;
+    
+}
+
+.login-btn {
+    color: white;
+    border: none;
+    background: none;
+}
